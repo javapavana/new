@@ -26,3 +26,9 @@
     </plugins>
   </build>
 </project>
+<dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-clean-plugin</artifactId>
+  <version>3.3.2</version>
+  <type>maven-plugin</type>
+</dependency>
