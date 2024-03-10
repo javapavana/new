@@ -14,6 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>3.3.2</version>
+      <type>maven-plugin</type>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -26,9 +33,3 @@
     </plugins>
   </build>
 </project>
-<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-clean-plugin</artifactId>
-  <version>3.3.2</version>
-  <type>maven-plugin</type>
-</dependency>
